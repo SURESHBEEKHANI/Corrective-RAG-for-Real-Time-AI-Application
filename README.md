@@ -8,7 +8,7 @@ Corrective-RAG-for-Real-Time-AI-Application is an advanced system that implement
 - Intelligent answer generation with state-of-the-art LLMs
 - Automated query rewriting for improved search results
 - Integrated web search to supplement document retrieval
-- REST API backend with FastAPI and an interactive UI using Streamlit
+- backend with FastAPI and an interactive UI using Streamlit
 
 ## Installation
 ```bash

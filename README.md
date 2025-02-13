@@ -17,7 +17,7 @@ git clone https://github.com/SURESHBEEKHANI/Corrective-RAG-for-Real-Time-AI-Appl
 cd Corrective-RAG-for-Real-Time-AI-Application
 
 # Install dependencies
-npm install
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -27,6 +27,19 @@ uvicorn backend:app --reload
 
 # Run the Streamlit application
 streamlit run app.py
+```
+
+## Project Structure
+```
+f:/
+├── backend.py
+├── app.py
+├── src/
+│   └── ... (retriever.py, required_function.py, ...)
+├── resource/
+│   └── corrective_rag.ipynb
+├── requirements.txt
+└── README.md
 ```
 
 ## Architecture
